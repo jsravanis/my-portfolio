@@ -1,0 +1,40 @@
+
+.name {
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+}
+
+/* Default Styles (for mobile and small screens) */
+.name {
+    font-size: 1.5rem; /* 3rem for smaller screens */
+    font-weight: 700; /* Bold weight */
+}
+
+/* For medium and larger screens (md and up) */
+@media (min-width: 768px) {
+    .name  {
+        font-size: 3rem; /* Tailwind's text-5xl roughly equals 3rem */
+        font-weight: 700; /* Tailwind's font-bold */
+    }
+}
+
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.cursor {
+    border-right: 10px solid white; /* simulates the cursor */
+    padding-right: 5px;
+    animation: blink 0.75s step-end infinite;
+}
+
+@media (min-width: 768px) {
+    .cursor {
+        border-right: 20px solid white; /* simulates the cursor */
+        padding-right: 5px;
+        animation: blink 0.75s step-end infinite;
+    }
+}
