@@ -20,7 +20,7 @@ const skillsData = [
         { name: 'Docker', iconUrl: 'https://svgl.app/library/docker.svg', category: 'Cloud' },
         { name: 'Kubernetes', iconUrl: 'https://svgl.app/library/kubernetes.svg', category: 'Cloud' },
         { name: 'Redis', iconUrl: 'https://svgl.app/library/redis.svg', category: 'Cloud' },
-        { name: 'Kafka', iconUrl: 'https://github.com/devicons/devicon/blob/v2.16.0/icons/apachekafka/apachekafka-original.svg', category: 'Cloud' },
+        { name: 'Kafka', iconUrl: 'https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/apachekafka/apachekafka-original.svg', category: 'Cloud' },
         { name: 'Tomcat', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tomcat/tomcat-original.svg', category: 'Other Tools' },
         { name: 'Maven', iconUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg', category: 'Other Tools' },
         { name: 'Git', iconUrl: 'https://svgl.app/library/git.svg', category: 'Other Tools' },
