@@ -20,7 +20,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-black transition duration-300 text-3xl hover:scale-110 transform"
                 >
-                    <img src="https://svgl.app/library/github-light.svg" alt="Github" className="w-8 h-8"/>
+                    <img src="https://svgl.app/library/github_light.svg" alt="Github" className="w-8 h-8"/>
                 </a>
                 <a
                     href="https://www.linkedin.com/in/jaya-sravani-sirigineedi-9540"
